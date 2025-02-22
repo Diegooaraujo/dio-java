@@ -41,6 +41,7 @@ public class App {
         int idade = 18;
         String resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
         String resultado2 = idade == 18 ? "verdadeiro" : "falso";
+        System.out.println(resultado2);
         System.out.println(resultado);
 
         if(idade >= 18){
